@@ -8,7 +8,7 @@ int main(){
   Runner tester[]={Runner(a)};//,Runner(b),Runner(c)};
   int n=sizeof(tester)/sizeof(Runner);
   double *outer[n];
-  sf::RenderWindow window(sf::VideoMode({800, 600}), "My window");
+  sf::RenderWindow window(sf::VideoMode({800, 600}), "tester");
   sf::CircleShape dot(10.f);
   sf::Vector2f offset({-10.f,-10.f});
   sf::Vector2f posGet[255];int head=0;
